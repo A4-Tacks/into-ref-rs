@@ -1,6 +1,6 @@
 Generic assist traits, consume self into a reference
 
-| Input     | `Into<&T>`    | `Into<&mut T>`  | `ThisRef<Out = T>`  | `ThisMut<Out = T>`  |
+| Input     | `Into<&T>`    | `Into<&mut T>`  | `IntoRef<Out = T>`  | `IntoMut<Out = T>`  |
 | `&T`      | pass          | fail            | pass                | fail                |
 | `&mut T`  | fail          | pass            | pass                | pass                |
 
